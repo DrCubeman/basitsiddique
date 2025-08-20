@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title {
+    text-align: center;
+    font-size: 60px;
+}
+img {
+    max-width: 430px;
+   max-height: 545px;
+}
+a {
+    color: white;
+}
+#look {
+    text-align: center;
+}
+.imgPlacements {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   row-gap: 25px;
+   column-gap: 25px;
+}

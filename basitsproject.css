@@ -1,0 +1,57 @@
+body { 
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+figcaption {
+    position: relative;
+    bottom: 15px;
+    opacity: 25%;
+    color: white;
+    text-align: center;
+}
+#newer {
+   position: relative;
+    top: 35px; 
+}
+.projectList {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    top: 45px;
+}
+.projectBorder {
+    border-color: white;
+    border-style: groove;
+    border-width: 1px;
+    border-left-color: black;
+}
+.newProject {
+    border-color: rgb(189, 4, 35);
+    border-style: groove;
+    border-width: 1px;
+}
+#projecttitle {
+color: white;
+text-align: right;
+}
+#madewith {
+color: white;
+text-align: right;
+}
+#datecomplete {
+color: white;
+text-align: right;
+}
+#link {
+color: white;
+text-align: right;
+}
+a {
+    color: white;
+}

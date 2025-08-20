@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#title {
+    color: white;
+}
+.contactInfo{
+text-align: center;
+color: white;
+}
+#secondary {
+    font-weight: lighter;
+    opacity: 45%;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 350px;
+    height: 85px;
+    column-count: 2;
+    z-index: 0;
+    position: relative;
+    top: 500px;
+    
+}
+.line1 {
+border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-width: 0.1;
+    animation-name: rainAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.line2 {
+border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-width: 0.1;
+    animation-name: rainAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.line3 {
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-width: 0.1;
+    animation-name: rainAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+/*Animations go here*/
+@keyframes rainAnimation {
+    0% {
+       height: 75px;
+    }
+    5% {
+       height: 65px;
+    }
+    10% {
+        height: 55px;
+        border-color:red;
+        background-color: red;
+    }
+    15% {
+        height: 45px;
+    }
+    20% {
+        height:35px;
+    }
+    25% {
+        height:25px;
+    }
+    30% {
+        height: 15px;
+    }
+    35% {
+        height: 5px;
+    }
+    40% {
+        height: 0px;
+    }
+    45% {
+        height: 5px;
+    }
+    50% {
+        height: 15px;
+    }
+    55% {
+        height: 25px;
+    }
+    60% {
+        height: 35px;
+    }
+    65% {
+        height: 45px;
+    }
+    70% {
+        height: 55px;
+        border-color: white;
+        background-color: white;
+    }
+    75% {
+        height: 65px;
+        border-color:red;
+        background-color: red;
+    }
+    80% {
+        height: 75px;
+    }
+    
+}

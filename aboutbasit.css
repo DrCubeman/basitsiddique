@@ -1,0 +1,127 @@
+html {
+    animation-name: forever;
+    animation-duration: 99s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    opacity: 100%;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+#bold {
+    font-weight: bolder;
+}
+figcaption {
+    opacity: 45%;
+    text-align: center;
+}
+a {
+    color: white;
+}
+.fullBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.whatcanido {
+position: relative;
+top: 35px;
+}
+.html {
+border-width: 5px;
+border-color: white;
+border-left-color: rgb(168, 90, 12);
+border-style: dotted;
+}
+.css {
+border-width: 5px;
+border-color: white;
+border-left-color: rebeccapurple;
+border-style: dotted;
+}
+.cpp {
+border-width: 5px;
+border-color: white;
+border-style: dotted;
+border-left-color: rgb(9, 9, 150);
+}
+.otherSkills {
+position: relative;
+top: 35px;
+}
+.movies {
+    position: relative;
+top: 35px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+#movie {
+    width: 230px;
+height: 325px;
+}
+#finalMess2 {
+    position: relative;
+    bottom: 45px;
+}
+.wrap {
+position: relative;
+top: 35px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+column-gap: 25px;
+}
+#link {
+position: relative;
+bottom: 35px;
+}
+/*Animations Go Here*/
+@keyframes fadeIn{
+0% {
+    opacity: 5%;
+}    
+5%{
+    opacity: 45%;
+}
+15% {
+    opacity: 55%;
+}
+25% {
+    opacity: 65%;
+}
+35% {
+    opacity: 75%;
+}
+45% {
+    opacity: 85%;
+}
+55% {
+    opacity: 95%;
+}
+65% {
+    opacity: 100%;
+}
+}
+@keyframes forever {
+    0% {
+        opacity: 100%;
+    }
+}
