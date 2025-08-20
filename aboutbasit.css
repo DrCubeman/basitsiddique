@@ -55,12 +55,6 @@ border-color: white;
 border-left-color: rebeccapurple;
 border-style: dotted;
 }
-.cpp {
-border-width: 5px;
-border-color: white;
-border-style: dotted;
-border-left-color: rgb(9, 9, 150);
-}
 .otherSkills {
 position: relative;
 top: 35px;
@@ -124,4 +118,5 @@ bottom: 35px;
     0% {
         opacity: 100%;
     }
+
 }
