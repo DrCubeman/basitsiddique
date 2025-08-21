@@ -28,6 +28,8 @@ body {
     flex-direction: row;
     column-gap: 15px;
     justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
     border-color: white;
     z-index: 1;
     
@@ -48,13 +50,6 @@ body {
     color: black;
     border-color: black;
 }
-.invitee {
-    display: flex;
-    justify-self: center;
-    position: relative;
-    right: 10px;
-    top: 20px;
-}
 .section1 {
     display: flex;
     flex-direction: row;
@@ -63,6 +58,8 @@ body {
     height: 85px;
     column-count: 2;
     z-index: 0;
+    position: relative;
+    top: 15px;
     
 }
 
