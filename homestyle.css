@@ -1,7 +1,5 @@
 body {
     background-color: black;
-    position: relative;
-    top: 220px;
     overflow-x: hidden;
 }
 .nameTitle {
@@ -183,4 +181,5 @@ visibility: hidden;
     
     }
 }
+
 
