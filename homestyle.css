@@ -2,62 +2,58 @@ body {
     background-color: black;
     overflow-x: hidden;
 }
-.nameTitle {
-    font-size: 55px;
-    font-weight:lighter;
+h1 {
     color: white;
-    text-align: center;
     font-family:monospace;
-    animation-name: slowStrobe;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    letter-spacing: 10px;
-}
-.nameCap {
-    font-weight:lighter;
-    color: white;
     text-align: center;
-    font-family:monospace;
+    letter-spacing: 15px;
     position: relative;
-    bottom: 25px;
+    top: 190px;
+    font-weight: 15px;
 }
-.buttonLayout {
-    display:flex;
+figcaption {
+    opacity: 45%;
+    font-family:monospace;
+    text-align: center;
+    position: relative;
+    top: 175px;
+    color: white;
+}
+.buttonList {
+    display: flex;
     flex-direction: row;
-    column-gap: 15px;
     justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    border-color: white;
-    z-index: 1;
-    
+    column-gap: 20px;
+    color: white;
+    position: relative;
+    top: 195px;
+    font-family: monospace;
+    font-size: 25px;
+}
+a {
+    color: white;
+     text-decoration: none;
 }
 .button {
-    border-color: white;
-    border-width: 5px;
-    border-top: 5px;
     border-style: groove;
-    text-decoration: none;
-    font-family: monospace;
-    text-align: center;
-    color: white;
-    
+    border-width: 10px;
+    border-color: white;
 }
 .button:hover {
     background-color: white;
-    color: black;
-    border-color: black;
+    color:black;
 }
 .section1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 350px;
     height: 85px;
     column-count: 2;
     z-index: 0;
     position: relative;
-    top: 15px;
+    top: 220px;
     
 }
 
@@ -88,38 +84,7 @@ border-color: white;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
-
-@media screen and (max-width: 1400px) {
-    .section1 {
-visibility: hidden;
-    }
-    .section2 {
-        visibility: hidden;
-    }
-}
-/*Animations Go Here*/
-@keyframes slowStrobe {
-    0% {
-        opacity: 0%;
-    opacity: 90%;
-    }
-    5% {
-        opacity: 80%;
-    }
-    10% {
-        opacity: 70%;
-    }
-    15% {
-        opacity: 60%;
-    }
-    20% {
-        opacity: 50%;
-    }
-    25% {
-        opacity: 0%
-    }
-}
+/*Animations go here*/
 @keyframes rainAnimation {
     0% {
        height: 75px;
@@ -179,7 +144,4 @@ visibility: hidden;
         height: 75px;
     }
     
-    }
 }
-
-
